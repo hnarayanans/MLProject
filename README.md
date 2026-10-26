@@ -29,7 +29,7 @@ Unlike static flashcard tools, this system uses log-linear regression to **learn
 - Werkzeug (password hashing)
 
 **AI / ML**
-- Groq API (`llama3-8b-8192`) — LLM quiz generation
+- Groq API (`openai/gpt-oss-120b`) — LLM quiz generation
 - Custom log-linear regression for λ (decay rate) learning
 - Piecewise exponential forgetting curve: `R(t) = R₀ · exp(-λ · Δt)`
 
